@@ -9,11 +9,14 @@ body {
     font-family: "Roboto";
 }
 
+header {
+    box-shadow: 0 10px 10px lightgray;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 5px 18px 17px 0px rgba(0, 0, 0, 0.35);
 
 }
 
@@ -26,10 +29,7 @@ ul {
 .main-menu li {
     list-style: none;
     justify-items: center;
-
 }
-
-
 
 a {
     text-decoration: none;
@@ -43,6 +43,47 @@ a {
 }
 
 .paris {
-    width: 10%;
+    width: 30%;
     height: 20%;
+    border: 1px solid black;
+    border-radius: 5%;
+
+    /* position: relative; */
+}
+
+.tokyo {
+    width: 30%;
+    height: 20;
+    border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 5px 13px 17px 6px rgba(0, 0, 0, 0.58);
+}
+
+.new-york {
+    width: 30%;
+    height: 20;
+    border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 5px 13px 17px 6px rgba(0, 0, 0, 0.58);
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 9%;
+    border-top-right-radius: 9%;
+}
+
+#image {
+    margin: 3%;
+}
+
+h2,
+p {
+    padding: 3%;
+}
+
+input {
+    background-color: blue;
+    color: white;
+    /* position: absolute; */
 }
